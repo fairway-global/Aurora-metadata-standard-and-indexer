@@ -1,4 +1,4 @@
-# Sundown — Metadata Standard & Indexer for Cardano Credit Markets
+# Aurora — Metadata Standard & Indexer for Cardano Credit Markets
 
 > **An open-source identity and compliance layer for P2P credit markets on Cardano.**
 >
@@ -8,27 +8,27 @@
 
 ---
 
-## Sundown & Aurora
+## Aurora & Maleda
 
 This project has two layers with different scopes and licensing:
 
-| | Sundown | Aurora |
+| | Aurora | Maleda |
 | :--- | :--- | :--- |
 | **What** | On-chain infrastructure: metadata standard, off-chain indexer, ZK proof generation, connection to BTC/stablecoin liquidity | Off-chain business services: SACCO onboarding, local fiat payments, legal & operational frameworks, last-mile lending operations |
 | **License** | Open source (Apache 2.0) | Closed source (Fairway proprietary) |
 | **Where** | **This repository** | Separate, private |
 
-**Sundown** is the open Cardano protocol layer — the metadata standard, indexer, and verification infrastructure that any credit market participant can use, extend, or self-host.
+**Aurora** is the open Cardano protocol layer — the metadata standard, indexer, and verification infrastructure that any credit market participant can use, extend, or self-host.
 
-**Aurora** is Fairway's commercial service built on top of Sundown, handling the operational realities of connecting real-world lending institutions (SACCOs, MFIs, banks) to Cardano credit markets: onboarding, compliance, fiat settlement, and loan servicing coordination.
+**Maleda** is Fairway's Ethiopian commercial service built on top of Aurora, handling the operational realities of connecting real-world lending institutions (SACCOs, MFIs, banks) to Cardano credit markets: onboarding, compliance, fiat settlement, and loan servicing coordination.
 
-Through Sundown, institutions connect to Cardano's open credit markets. Through Aurora, Fairway handles the last mile.
+Through Aurora, institutions connect to Cardano's open credit markets. Through Maleda, Fairway handles the last mile.
 
 ---
 
 ## What this repository contains
 
-This is the home for two open-source components described in the **Sundown** Cardano Treasury proposal:
+This is the home for two open-source components described in the **Aurora** Cardano Treasury proposal:
 
 | Component | Purpose |
 | :--- | :--- |
@@ -79,7 +79,7 @@ The standard uses transaction metadata rather than embedding identity checks ins
 ## Repository structure (planned)
 
 ```
-sundown-metadata-standard-and-indexer/
+aurora-metadata-standard-and-indexer/
 ├── standard/
 │   ├── spec/                  # Metadata schema specification (versioned)
 │   │   ├── v1.0/
@@ -168,7 +168,7 @@ The project introduces an optional metadata, verification, and discovery layer t
 
 ## Status
 
-🟡 **Pre-development.** This repository is a placeholder accompanying the Sundown Cardano Treasury proposal submission. Development begins upon proposal approval, following the milestone schedule above. The specification, indexer source, documentation, and pilot tooling will be published here as open-source deliverables.
+🟡 **Pre-development.** This repository is a placeholder accompanying the Aurora Cardano Treasury proposal submission. Development begins upon proposal approval, following the milestone schedule above. The specification, indexer source, documentation, and pilot tooling will be published here as open-source deliverables.
 
 ## License
 
@@ -176,8 +176,8 @@ This project will be released under the [Apache License 2.0](https://www.apache.
 
 ## Links
 
-- [Fairway](https://fairway.global) · [Aurora](https://aurora.fairway.global)
-- Sundown Treasury Proposal — *link to be added upon governance submission*
+- [Fairway](https://fairway.global) · [Maleda](https://maleda.fairway.global)
+- Aurora Treasury Proposal — *link to be added upon governance submission*
 
 ---
 
